@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<form>
+<form target="HTTPS://WWW.EXAMPLELINK.COM"
+<head>
+
+  <h2><strong>REGISTRATION FORM</h2></strong>
+</head>
+<div>
+<form action="/action_page.php" method="get">
+  <h3>First name: <input type="text" name="fname"></h3><br>
+<br>
+  <h3>Last name: <input type="text" name="lname"></h3><br>
+<br>
+</div>
+<div>
+<h3><strong>Gender</h3></strong>
+ <select name="gender" h3>
+   <option value="male">Male</option> 
+   <option value="female">Female</option>
+   <option value="unspecified">Unspecified</option>
+</div>
+<div>
+</select><br>
+<br>
+ <h3><strong>Grade</h3></strong>
+   <input type="radio" name="grade">10</input><br>
+   <input type="radio" name="grade">11</input><br>
+   <input type="radio" name="grade">12</input><br>
+<br>
+</div>
+<div>
+ <h3><strong>Pets</h3></strong>
+   <input type="checkbox" name="pet">dog</input><br>
+   <input type="checkbox" name="pet">cat</input><br>
+   <input type="checkbox" name="pet">mouse</input><br>
+   <input type="checkbox" name="pet">others</input><br>
+<br>
+</div>
+<h3><strong>Description</h3></strong>
+<textarea>
+
+
+
+
+
+
+</textarea>
+<br>
+<input type="submit">
+</form>
